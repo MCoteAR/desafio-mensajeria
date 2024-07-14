@@ -1,0 +1,129 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+
+
+.user-status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  
+
+}
+
+
+
+.user-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.user-info p,
+.user-info span {
+    margin: 0;
+   
+}
+
+
+
+.contacts {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-image {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.contact-info p,
+.contact-info span {
+    margin: 0;
+}
+
+
+.new-chat {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #A2A2D0;
+    /* Color Blue Bell */
+    color: white;
+    /* Color del texto */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 160px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.boton {
+    border: 1px solid #ccc;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.logo-section {
+    text-align: center;
+}
+
+.logo {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left: 310px;
+    gap: 10px;
+    color: #BEC1BB
+}
+
+.info {
+    color: #BEC1BB
+}
